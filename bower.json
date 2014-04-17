@@ -4,7 +4,7 @@
 	"authors": [
 		"Camille Reynders <info@creynders.be>"
 	],
-	"description": "Dependency graph resolver",
+	"description": "Dependency graph resolution",
 	"main": "dist/depres.js",
 	"moduleType": [
 		"amd",

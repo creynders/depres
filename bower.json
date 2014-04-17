@@ -1,0 +1,29 @@
+{
+	"name": "depres",
+	"version": "0.0.0",
+	"authors": [
+		"Camille Reynders <info@creynders.be>"
+	],
+	"description": "Dependency graph resolver",
+	"main": "dist/depres.js",
+	"moduleType": [
+		"amd",
+		"globals",
+		"node"
+	],
+	"license": "MIT",
+	"homepage": "https://github.com/creynders/depres",
+	"ignore": [
+		"**/.*",
+		"node_modules",
+		"bower_components",
+		"specs",
+		"src",
+		"config",
+		"Gruntfile.js"
+	],
+	"repository": {
+		"type": "git",
+		"url": "git://github.com/creynders/depres.git"
+	}
+}

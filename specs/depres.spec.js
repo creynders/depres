@@ -70,5 +70,38 @@ describe( 'depres', function(){
       expect( result.resolved ).to.have.length( 0 );
     } );
 
+    it( 'should resolve complex graphs', function(){
+      var result = depres.resolveMap( fx.ids_complexGraph );
+      expect( result.aborted ).to.be.false;
+      expect( result.resolved ).to.deep.equal( [
+        'F',
+        'U',
+        'W',
+        'I',
+        'O',
+        'L',
+        'T',
+        'C',
+        'B',
+        'D',
+        'Q',
+        'K',
+        'N',
+        'Z',
+        'S',
+        'R',
+        'M',
+        'J',
+        'E',
+        'P',
+        'V',
+        'G',
+        'H',
+        'A',
+        'X',
+        'Y'
+      ] );
+    } );
+
   } );
 } );

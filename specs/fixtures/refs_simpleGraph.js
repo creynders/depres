@@ -38,3 +38,5 @@ nC.add(n3, n1);
 n3.add(nB);
 
 module.exports = nA;
+
+//['b', '1', '3', 'c', '2', 'a']

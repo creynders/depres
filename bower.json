@@ -1,6 +1,5 @@
 {
 	"name": "depres",
-	"version": "0.0.0",
 	"authors": [
 		"Camille Reynders <info@creynders.be>"
 	],
@@ -25,5 +24,6 @@
 	"repository": {
 		"type": "git",
 		"url": "git://github.com/creynders/depres.git"
-	}
+	},
+	"version": "0.1.0"
 }

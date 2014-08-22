@@ -1,5 +1,5 @@
 /*!
- * depres v0.0.0
+ * depres v0.1.0
  * https://github.com/creynders/depres
  *
  * Copyright (c) 2014 Camille Reynders
@@ -98,12 +98,10 @@
       return dependency;
     } );
 
-    var list = (res.aborted)
-        ? 'unresolved'
-        : 'resolved';
-
-    _.remove( res[list], {id : "root"} );
-    res[list] = _.pluck( res[list], 'id' );
+    _.each( ['unresolved', 'resolved'], function( list ){
+      _.remove( res[list], {id : "root"} );
+      res[list] = _.pluck( res[list], 'id' );
+    } );
 
     return res;
   }

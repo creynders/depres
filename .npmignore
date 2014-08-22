@@ -1,0 +1,7 @@
+src
+specs
+config
+.editorconfig
+.jshintrc
+bower.json
+Gruntfile.js

@@ -54,7 +54,7 @@
       "url": "https://github.com/creynders/depres/blob/master/LICENSE-MIT"
     }
   ],
-  "main": "src/depres.js",
+  "main": "dist/depres.js",
   "repository": {
     "type": "git",
     "url": "git://github.com/creynders/depres.git"
